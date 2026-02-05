@@ -110,3 +110,88 @@ This proves that automatic updates are active and being logged.
  The configuration file confirms that updates are enabled, and log files provide evidence that update activity is being recorded. This ensures the server receives security patches automatically.
 
 
+
+--------------------------------------------
+## Fail2Ban
+
+Fail2Ban is installed
+<img width="697" height="230" alt="image" src="https://github.com/user-attachments/assets/8dd86906-f715-4840-a14d-4e45c5c2acfd" />
+
+
+
+
+
+## Fail2Ban is running and monitoring SSH
+
+
+<img width="832" height="122" alt="image" src="https://github.com/user-attachments/assets/48597653-caf5-47c3-b716-ce96617bc1f9" />
+--------------------------------     
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------
+## Create a remote monitoring script (`monitor-server.sh`) that runs on your workstation,connects via SSH, and collects performance metrics from the server.
+
+
+<img width="580" height="27" alt="image" src="https://github.com/user-attachments/assets/cd6154f1-940e-405d-86bf-fdfbd658c79f" />
+
+
+this tells you the file status and changes made to the file.
+
+
+
+
+creating security baseline
+<img width="1219" height="660" alt="image" src="https://github.com/user-attachments/assets/149e5b21-b31e-4f59-b17a-7fcfd841403d" />
+
+
+
+
+## running security baseline and showing output
+<img width="859" height="733" alt="image" src="https://github.com/user-attachments/assets/db68fab1-6f8d-4410-ae6d-33ffce282f5b" />
+
+
+
+
+
+## shows it running and its status
+
+<img width="1090" height="642" alt="image" src="https://github.com/user-attachments/assets/0f584d7c-74c3-4234-9a35-1df2c8c12ecb" />
+
+
+
+
+------------------------------------------------
+## Create a remote monitoring script (`monitor-server.sh`) that runs on your workstation,connects via SSH, and collects performance metrics from the server.
+
+
+<img width="676" height="29" alt="image" src="https://github.com/user-attachments/assets/2ef90b27-42eb-441f-bef8-3e90240bc3da" />
+
+making moneterig script
+
+
+
+
+## inside the script
+<img width="785" height="303" alt="image" src="https://github.com/user-attachments/assets/ab4c5eea-a031-4ea3-bf0b-975a28d2e7e5" />
+
+
+## output
+<img width="897" height="572" alt="image" src="https://github.com/user-attachments/assets/5419793a-ad32-4da5-88a9-bc492a719c76" />
+
+
+
+# Week 5 Reflection
+
+In Week 5, I focused on improving the security and monitoring capabilities of the server. I configured automatic security updates to ensure the system receives important patches without manual intervention, which reduces the risk of vulnerabilities over time. I also implemented Fail2Ban to detect and block repeated unauthorised login attempts, adding an extra layer of protection against brute-force attacks.
+
+Creating security and monitoring scripts helped me understand how security controls can be verified and monitored efficiently using automation. This week highlighted the importance of continuous security management rather than one-time configuration. Overall, these tasks improved my confidence in managing and securing a Linux server in a professional and practical way.
+
