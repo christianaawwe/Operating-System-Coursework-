@@ -124,6 +124,10 @@ Starting Iperf3 - This command starts the server in listening mode so that it ca
 
 
 ## Iperf3 output
+
+
+
+
 <img width="425" height="220" alt="image" src="https://github.com/user-attachments/assets/c9e30a46-b225-45e4-ace4-f45563128912" />
 
 This command was executed on the workstation to test network throughput to the server. It measures how much data can be transferred per second between the two systems. The final throughput value in Mbits/sec was recorded to assess network performance.
@@ -131,6 +135,74 @@ This command was executed on the workstation to test network throughput to the s
 
 #
 These commands together provide quantitative measurements of network latency and throughput, which are essential for analysing network performance in a server environment.
+
+
+
+--------------------------------------
+## Service Response Time Test
+
+<img width="1198" height="356" alt="image" src="https://github.com/user-attachments/assets/f67e72f8-9bb3-4a9b-9059-bf3fadd2544d" />
+
+
+<img width="315" height="90" alt="image" src="https://github.com/user-attachments/assets/14339119-9be2-4ffc-90c9-cd3ba81c9013" />
+Use real time as the service response time.
+
+
+This command was used to measure the response time of a running web service on the server. The time command records how long it takes for the Apache service to respond to a request. The real time value was used to evaluate service responsiveness under normal operating conditions.
+
+
+---------------------------------------
+# Check current value   
+baseline value
+
+<img width="79" height="39" alt="image" src="https://github.com/user-attachments/assets/7b99294d-ee4b-4d04-9058-3f316e664a7a" />
+
+
+# Reduce swappiness
+
+<img width="672" height="179" alt="image" src="https://github.com/user-attachments/assets/274933ed-4d20-45cf-a7d0-b76194e8a076" />
+
+
+
+
+
+# change from 60 to 10 verified
+<img width="819" height="203" alt="image" src="https://github.com/user-attachments/assets/5dc9ab97-834a-43e9-90e5-3f1353019fae" />
+
+
+
+Reducing swappiness lowered the system’s tendency to use swap memory, resulting in improved memory performance under load. After the change, memory usage became more stable and system responsiveness improved during stress testing.
+
+
+
+
+
+
+
+## Disable Unnecessary Service
+
+
+<img width="1122" height="674" alt="image" src="https://github.com/user-attachments/assets/8a6c3d4d-02e9-407c-a227-d68ea48d98e9" />
+
+
+
+
+
+
+
+
+Week 6 Summary – Performance Evaluation and Analysis
+
+In Week 6, performance testing was carried out to analyse how the operating system behaves under different workloads. Baseline measurements were recorded to understand normal system performance before applying stress tests. CPU, memory, disk I/O, network performance, and service response times were then tested using command-line tools to generate quantitative performance data.
+
+
+
+
+
+
+
+
+
 
 
 
