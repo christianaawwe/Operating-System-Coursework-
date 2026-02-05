@@ -117,9 +117,12 @@ This command was used to measure network latency between the workstation and the
 
 
 iperf3 -s
+<img width="209" height="11" alt="image" src="https://github.com/user-attachments/assets/c6d2ab15-53ec-442b-acb2-993a1b91be61" />
+
+Starting Iperf3
 
 
-
+Iperf3 output
 <img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/9731d2bf-f8bf-4ee3-87d8-9fcc562bcf14" />
 
 
