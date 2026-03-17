@@ -142,7 +142,10 @@ The final Lynis hardening index increased after implementing recommended securit
 The security audit demonstrated improvements in system hardening through firewall configuration, SSH security enhancements, and service review.
 
 
+
 #
 The Lynis audit was executed again after reviewing the security recommendations. The hardening index remained unchanged, indicating that either the suggested fixes were already implemented or the remaining recommendations require advanced configuration beyond the current system setup.
+
+
 ----------------------------------------------------------------------------
 
